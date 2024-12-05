@@ -17,11 +17,13 @@ To use this repository, clone it and install the required libraries.
 ### Clone the repository:
 ```bash
 git clone https://github.com/vozmo/emotion_detection.git
-cd emotion_detection```
+cd emotion_detection
+```
 
 ### Install dependencies:
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ## Requirements
 - Python 3.x
