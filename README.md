@@ -35,14 +35,25 @@ pip install -r requirements.txt
 - tqdm
 - WordCloud
 
+## Data
+
+The dataset used for emotion classification is a collection of Russian phrases with corresponding emotion labels. 
+To ensure the notebook works correctly:
+1. Place a CSV file containing the dataset in the repository directory.
+2. Name the file `phrases.csv`.
+
+The dataset must contain at least the following columns:
+- `Текст фразы` — the text of the phrases to classify.
+- `Эмоция` — the corresponding emotion labels.
+
+If needed, you can replace this dataset with your own while maintaining the same column names.
+
 ## Usage
 
-1. Open the Jupyter Notebook (Team2MIPT_emo_rec_hack_2024_final.ipynb).
-2. Run each cell sequentially to preprocess the data, train the model, and evaluate the results.
-3. Modify the dataset and experiment with different models for further research.
-
-## Data
-The dataset used for emotion classification is a collection of Russian phrases with corresponding emotion labels. The dataset can be replaced with your own if needed.
+1. Open the Jupyter Notebook (`emotion_classification.ipynb`).
+2. Ensure the file `phrases.csv` is in the same directory as the notebook.
+3. Run each cell sequentially to preprocess the data, train the model, and evaluate the results.
+4. Modify the dataset and experiment with different models for further research.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
