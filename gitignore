@@ -1,0 +1,28 @@
+
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# C extensions
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Large data or models (if needed)
+data/
+models/
