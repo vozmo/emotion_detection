@@ -21,5 +21,5 @@ To use this repository, clone it and install the required libraries.
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/emotion-classification-rubert.git
+git clone https://github.com/vozmo/emotion-classification-rubert.git
 cd emotion-classification-rubert
