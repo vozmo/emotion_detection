@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Open the Jupyter Notebook (emotion_classification.ipynb).
+1. Open the Jupyter Notebook (Team2MIPT_emo_rec_hack_2024_final.ipynb).
 2. Run each cell sequentially to preprocess the data, train the model, and evaluate the results.
 3. Modify the dataset and experiment with different models for further research.
 
